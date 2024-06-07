@@ -1,0 +1,609 @@
+
+
+*{
+  margin: 0;
+}
+body{
+  margin: 0px;
+}
+/*******************************************SECTION*********************************************/
+section { 
+  padding: 0px; 
+  text-align: center; 
+} 
+#about { 
+  align-items: center;
+  justify-content: center;
+  background-color: #AD4236; 
+  height: 700px;
+} 
+#ene { 
+  background-color: #253238; 
+  height: 700px;
+} 
+
+#projects { 
+  background-color: #253238;
+  color: black; 
+} 
+#contact{
+  background-color:#AD4236;
+  color: white;
+  height: 700px;
+}
+/********************************************HEADER**********************************************/
+.header{
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color:#253238;
+  border-bottom: 5px;
+  border-style: solid;
+  border-color: #253238;
+}
+.logo-name{
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+
+}
+span{
+  color: #AD4236;
+}
+.logo{
+  margin-left: 50px;
+  margin-right: 10px;
+}
+.mypic{
+  margin-top: 10px;
+  width: 200px;
+}
+.info{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: white;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 140px;
+  margin-left: 10px;
+}
+.about,.educaion-experience,.skills,.projects,.contact{
+  padding: 10px 10px 10px 10px;
+  margin: 0px 10px 0px 10px;
+  background-color: #253238;
+}
+.A-about,.A-ene,.A-skills,.A-projects,.A-contact{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+a:hover{
+    color: white;
+}
+a::after{
+  content: '';
+  width:0;
+  height:3px;
+  background: #AD4236;
+  position: absolute;
+  left:0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+a:hover::after{
+  width:100%;
+  color: #AD4236;
+}
+/******************************************HOME PAGE********************************************/
+.personal{
+  height: 650px;
+  background-color:#253238;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.name-tagline{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 250px 0px 50px;
+}
+.im{
+  color: white;
+  padding: 5px;
+  font-size: 25px;
+  }
+.name{
+  color: #AD4236;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+.tagline{
+  color: white;
+  padding: 5px;
+  font-size: 30px;
+}
+.mypic1{
+  width: 450px;
+  margin: 0px 0px 0px 50px;
+}
+.img1{
+  width: 450px;
+
+  border-radius: 15px;
+}
+.reach-out{
+  padding: 5px;
+  margin: 40px 0px 0px 0px;
+  text-align: left;
+}
+.go{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration-line: none;
+  background-color: #AD4236;
+  color: white;
+}
+.go:hover{
+  background-color: white;
+  color:#253238
+}
+
+/*******************************************ABOUT ME*********************************************/
+.div-about{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 700px;
+}
+.about-img{
+padding: 10px;
+margin: 20px 200px 20px 20px;
+}
+.about-pic{
+  width: 450px;
+
+  background-color: white;
+  border-radius: 15px;
+}
+.about-text{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 20px 20px 20px;
+}
+.about-head{
+  color: #253238;
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+.pa{
+  color: white;
+  text-align: center;
+  font-family: carlito;
+  font-size: 25px;
+  padding: 10px;
+}
+/****************************************EDUCATION AND EXPERIENCE**********************************************/
+.div-ene{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.div-ene-in{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.leftcolumn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+}
+.ene-head{
+  align-items: center;
+  color: white;
+  font-size: 40px;
+  padding: 10px;
+}
+.ene-pic{
+  background-color: white;
+  width: 500px;
+  border-radius: 15px;
+  margin: 0px 100px 0px 50px;
+}
+.rightcolumn{
+  padding: 10px 0px 10px 00px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.edu-div{
+
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  text-align: start;
+  padding: 5px;
+}
+.sub-left{
+  padding-right: 30px;
+  align-items: start;
+  text-align: start;
+  justify-content: start;
+}
+.year{
+  color: #AD4236;
+  font-size: 25px;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+}
+.sub-right{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: start;
+}
+.edu-p1{
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  color: white;
+  align-items: start;
+  text-align: start;
+}
+.edu-p2{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  color: #AD4236;
+  align-items: start;
+  text-align: start;
+}
+.edu-p3{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  padding: 5px;
+  align-items: start;
+  text-align: start;
+}
+/****************************************MY SKILLS**********************************************/
+#skills { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #AD4236;
+  color: black;
+  height: 700px;
+} 
+.div-skills{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 700PX;
+}
+.skills-head{
+margin: 10px 0px 50px 0px;
+}
+.skills-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.skills-col-1{
+width: 500PX;
+margin: 0px 30px 0px 10px;
+background-color: #253238;
+padding: 20px;
+border-radius: 50px;
+}
+.skills-col-2{
+width: 500PX;
+margin: 0px 10px 0px 30px;
+background-color: #253238;
+padding: 20px;
+border-radius: 50px;
+}
+.progress{
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  border: 0.5px;
+  border-style: solid;
+  border-color: black
+}
+.progress-bar{
+  background-color: #AD4236;
+  border-radius: 20px;
+  color: white;
+}
+.info1{
+  margin: 0%;
+  text-align: left;
+  width: 500px;
+  margin-bottom: 10px;
+}
+.info-p{
+  color: white;
+  font-size: 10px;
+  text-align: left;
+  font-size: 20px;
+}
+.bar{
+  margin: 0px 0px 0px 0px;
+  font-size: 35px;
+  text-align: left;
+}
+.sub-heading{
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: white;
+}
+.heading{
+  font-size: 50px;
+  font-family: "Radley", serif;
+  font-weight: 600;
+  font-style:normal;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+/****************************************MY PROJECTS**********************************************/
+.project-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 700px;
+}
+.project-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin: 0px 0px 80px 0px;
+}
+.sub-project-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  height: 480;
+  border-radius: 10px;
+  border-color: white;
+  margin: 0px 50px 0px 50px;
+  background-color: #AD4236;
+  color: white;
+}
+.sub-image{
+  width: 100%;
+  background-color: white;
+  border-radius: 15px;
+}
+.sub-pic{
+  width: 250px;
+}
+.sub-text{
+  width: 250px;
+}
+.project-head{
+  color: #253238;
+  margin: 50px 0px 50px 0px;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+}
+.p-head{
+  font-size: 50px;
+  font-family: "Radley", serif;
+  font-weight: 600;
+  font-style:normal;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.headline{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #253238;
+}
+.sub-p{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+}
+/****************************************CONTACT ME**********************************************/
+.div-contact{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 700px;
+}
+.contact-img{
+  display: flex;
+  padding: 0px 0px 0px 200px;
+}
+.contact-pic{
+  width: 400px;
+  border-radius: 25px;
+}
+.contact-text{
+  display: flex;
+  flex-direction: column;
+  padding: 0px 450px 0px 00px;
+}
+.contact-head{
+  color: white;
+  font-size: 40px;
+  text-align: left;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+.links{
+  margin-bottom: 20px;
+}
+.p{
+  font-size: 20px;
+  text-align: left;
+  padding: 7px;
+}
+#icon1{
+  font-size: 25px;
+  color: #253238;
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+  padding: 5px;
+
+}
+.icons a{
+  padding: 5px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  transition: transform 0.5s;
+
+}
+.icons a:hover{
+  color: #253238;
+  transform: translateY(-5px);
+}
+.icons a::after{
+  content: '';
+  width:0;
+  height:3px;
+  background: white;
+  position: absolute;
+  left:0;
+  bottom: -3px;
+  transition: 0.5s;
+}
+.icons a:hover::after{
+  width:100%;
+}
+.hem{
+  padding: 5px;
+  text-align: left;
+  margin-bottom: 100px;
+}
+.down{
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  text-decoration-line: none;
+  background-color: #253238;
+  color: white;
+}
+/****************************************footer**********************************************/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+footer{
+  background-color: #111;
+}
+.footerContainer{
+  width: 100%;
+  padding: 70px 30px 20px ;
+}
+.socialIcons{
+  display: flex;
+  justify-content: center;
+}
+.socialIcons a{
+  text-decoration: none;
+  padding:  10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.socialIcons a i{
+  font-size: 2em;
+  color: black;
+  opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+  background-color: #111;
+  transition: 0.5s;
+}
+.socialIcons a:hover i{
+  color: white;
+  transition: 0.5s;
+}
+.footerNav{
+  margin: 30px 0;
+}
+.footerNav ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.footerNav ul li a{
+  color:white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+  opacity: 1;
+}
+.footerBottom{
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+.footerBottom p{
+  color: white;
+}
+.designer{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+@media (max-width: 700px){
+  .footerNav ul{
+      flex-direction: column;
+  } 
+  .footerNav ul li{
+      width:100%;
+      text-align: center;
+      margin: 10px;
+  }
+  .socialIcons a{
+      padding: 8px;
+      margin: 4px;
+  }
+}
